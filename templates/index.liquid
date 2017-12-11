@@ -1,0 +1,11 @@
+<script>
+  var sd = 'http://flightn9ne.ositracker.com';
+  var resource = document.createElement('script'); 
+  resource.src = "http://flightn9ne.ositracker.com/track.js";  
+  var script = document.getElementsByTagName('script')[0]; 
+  script.parentNode.insertBefore(resource, script);
+</script>
+
+{% section 'slideshow' %}
+
+{{ content_for_index }}
